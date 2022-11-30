@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.logo img{
+    width: 135px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
+.header-section{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb);
+}
+a{
+    text-decoration: none;
+}
+.carte{
+    width: 350px;
+    height: 610px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 10px;
+}
+.modele{
+    height: 250px;
+    max-height: 100%;
+    max-width: 100%;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.detail p{
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+}
+.detail h1{
+    color: #555;
+}
+.sneakers{
+    color: #555;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.logo2{
+    width: 200px;
+}
