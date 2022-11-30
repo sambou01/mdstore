@@ -158,3 +158,9 @@ a{
 .logo2{
     width: 200px;
 }
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
